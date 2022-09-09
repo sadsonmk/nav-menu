@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* set the defaults for your app */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 10px 10px;
+    border-bottom: 1px solid #f2f2;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px;
+}
+
+.navbar h1 {
+    color: #ff00ff
+}
+
+.nav-links a:hover {
+    color: #ff00ff;
 }
