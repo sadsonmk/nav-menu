@@ -10,7 +10,7 @@ const Teams = () => {
         height: '100vh'
       }}
     >
-      <h1>Welcome to GeeksforGeeks Team</h1>
+      <h1>Welcome to our Team</h1>
     </div>
   );
 };
